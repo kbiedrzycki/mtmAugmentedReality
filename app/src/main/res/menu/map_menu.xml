@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_map"
+        android:visible="true"
+        android:title="@string/action_to_map"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_camera"
+        android:visible="true"
+        android:title="@string/action_to_camera"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_status"
+        android:icon="@drawable/user_visible"
+        android:visible="true"
+        android:title="@string/action_show_user"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/friends"
+        android:icon="@drawable/friends"
+        android:visible="true"
+        android:title="@string/action_friends"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        app:showAsAction="never"/>
+</menu>
